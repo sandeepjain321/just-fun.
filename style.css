@@ -1,0 +1,58 @@
+body {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  background-color: rgb(158, 241, 241);
+  text-align: center;
+}
+
+#choices {
+  gap: 1rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 400px) {
+  #choices {
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+  }
+}
+.choice {
+  align-items: center;
+  border: 3px solid black;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.choice:hover {
+  border: 8px solid black;
+}
+
+.score-board {
+  font-size: 30px;
+  margin: 25px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+#msg {
+  padding: 1rem;
+  border-radius: 75px;
+  font-size: 15px;
+  display: inline;
+  background-color: black;
+  color: aliceblue;
+}
+@media screen and (min-width: 400px) {
+  #msg {
+    font-size: 75px;
+  }
+}
