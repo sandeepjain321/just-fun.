@@ -42,7 +42,9 @@ const playgame = (userChoice) => {
     let userwin = true;
     if (userChoice == "rock") {
       // paper,scissor
-      userWin = compchoice == "paper" ? false : true;
+      // The variable "userwin" was used with a capital W ie, userWin 
+      // userWin = compchoice == "paper" ? false : true;
+      userwin = compchoice == "paper" ? false : true;
     } else if (userChoice == "paper") {
       // rock,scissor
       userwin = compchoice == "scissor" ? false : true;
